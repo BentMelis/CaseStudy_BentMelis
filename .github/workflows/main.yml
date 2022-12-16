@@ -6,7 +6,7 @@ on:
       - "casestudy/v*"
 
 env:
-  PROJECT_PATH: CaseStudy_BentMelis.csproj
+  PROJECT_PATH: /CaseStudy_BentMelis/CaseStudy_BentMelis.csproj
 
 jobs:
   deploy:
