@@ -6,7 +6,7 @@ on:
       - "class-commands/v*"
 
 env:
-  PROJECT_PATH: ClassCommands/ClassCommands.csproj
+  PROJECT_PATH: CaseStudy_BentMelis/CaseStudy_BentMelis.csproj
 
 jobs:
   deploy:
