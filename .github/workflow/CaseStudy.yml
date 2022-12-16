@@ -3,7 +3,7 @@ name: "CaseStudy"
 on:
   push:
     tags:
-      - "class-commands/v*"
+      - "casestudy/v*"
 
 env:
   PROJECT_PATH: CaseStudy_BentMelis/CaseStudy_BentMelis.csproj
