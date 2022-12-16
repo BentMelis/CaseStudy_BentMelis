@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="addrecept.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="delete.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="deleterecept.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="MainPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="register.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="addrecept.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="delete.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="deleterecept.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="LoginUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="register.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

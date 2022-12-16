@@ -1,0 +1,17 @@
+﻿<Window x:Class="CaseStudy_BentMelis.addrecept"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CaseStudy_BentMelis"
+        mc:Ignorable="d"
+        Title="addrecept" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnAddRecept" Content="Aanmaken recept" HorizontalAlignment="Center" Margin="0,321,0,0" VerticalAlignment="Top" Click="btnAddRecept_Click"/>
+        <TextBox x:Name="txtReceptnaam" HorizontalAlignment="Left" Margin="352,82,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="Receptnaam" HorizontalAlignment="Left" Margin="272,78,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Stappen:" HorizontalAlignment="Left" Margin="291,127,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtRecept" HorizontalAlignment="Left" Margin="352,0,0,0" TextWrapping="Wrap" AcceptsReturn="True" Text="" VerticalAlignment="Center" Width="225" Height="198"/>
+
+    </Grid>
+</Window>
